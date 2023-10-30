@@ -1,0 +1,43 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+/* src/App.css */
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.operators {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.action {
+  margin-top: 20px;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    }
